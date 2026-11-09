@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="purpleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C3AED" />
+      <stop offset="100%" stop-color="#4C1D95" />
+    </linearGradient>
+    <filter id="dropShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#1E1B4B" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Solid / Gradient Deep Purple Full Background -->
+  <rect width="512" height="512" fill="url(#purpleGradient)" />
+
+  <!-- Telephone handset with subtle shadow -->
+  <g filter="url(#dropShadow)">
+    <path fill="#FFFFFF" d="M166,150 C177,150 188,172 194,186 C197,194 195,203 189,209 L175,221 C189,249 212,272 240,285 L253,272 C259,266 268,264 276,267 C290,273 313,283 313,294 C313,312 295,330 276,330 C198,330 135,267 135,189 C135,170 153,150 166,150 Z" />
+  </g>
+
+  <!-- Prohibition Badge Outer White Border Ring -->
+  <circle cx="340" cy="320" r="88" fill="#FFFFFF" />
+
+  <!-- Prohibition Badge Red Body -->
+  <circle cx="340" cy="320" r="76" fill="#EF4444" />
+
+  <!-- Prohibition Inner White Cuts & Slash -->
+  <path fill="#FFFFFF" d="M340,260 C364,260 385,273 396,293 L287,402 C267,391 254,370 254,346 C254,299 292,260 340,260 Z M340,432 C316,432 295,419 284,399 L393,290 C413,301 426,322 426,346 C426,394 388,432 340,432 Z" />
+</svg>

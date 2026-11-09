@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SpamBlocker</string>
+    <string name="title_blocked_calls">Blocked Calls History</string>
+    <string name="blocked_calls_empty_title">No Blocked Calls Yet</string>
+    <string name="blocked_calls_empty_desc">Calls from numbers not found in your contacts will be automatically blocked and listed here.</string>
+    <string name="btn_clear_all">Clear all</string>
+    <string name="btn_simulate_call">Simulate Blocked Call</string>
+    <string name="status_service_active">Call Screening Active</string>
+    <string name="status_service_inactive">Call Screening Inactive</string>
+    <string name="status_contacts_granted">Contacts Access Granted</string>
+    <string name="status_contacts_missing">Contacts Access Required</string>
+    <string name="btn_grant_contacts">Grant Contacts Permission</string>
+    <string name="btn_enable_screening">Enable Call Screening</string>
+    <string name="action_delete">Delete</string>
+    <string name="dialog_clear_title">Clear History</string>
+    <string name="dialog_clear_message">Are you sure you want to delete all blocked call records?</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="total_blocked">Total blocked: %1$d</string>
+</resources>
